@@ -141,3 +141,37 @@ footer {
         margin: 0 auto;
     }
 }
+
+@media screen and (min-width: 1000px) {
+    /* For devices greater than or equal to 1000px in width */
+    
+    /* PHOTO GALLERY STYLES */
+
+    #gallery-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #gallery-container figure:last-of-type {
+        grid-column: span 2;
+        margin-top: 0;
+    }
+
+    /* MAIN STYLES */
+
+    main figure {
+        display: grid;
+        grid-template-rows: auto 1fr;
+        margin: 0 2rem 2rem;
+    }
+
+    main figure img {
+        width: 100%;
+        grid-row: 1;
+    }
+
+    main figure figcaption {
+        grid-row: 2;
+        align-self: start;
+    }
+}
