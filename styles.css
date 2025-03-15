@@ -50,3 +50,29 @@ nav ul li a {
     text-decoration: none;
     color: #fff;
 }
+
+/* MAIN STYLES */
+
+main h2 {
+    text-align: center;
+}
+
+main figure {
+    background-color: #fff;
+    padding: 1.5rem;
+}
+
+main figure img {
+    border-bottom: 10px solid #97bf04;
+    width: 100%;
+}
+
+/* FOOTER STYLES */
+
+footer {
+    background-color: #d9043d;
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 0.85rem;
+}
