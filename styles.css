@@ -12,3 +12,41 @@ body {
     padding: 0;
     background-color: #cccccc;
 }
+
+/* HEADER STYLES */
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #120323;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    background-color: #120323;
+}
+
+header h1 {
+    color: #97bf04;
+}
+
+/* NAV STYLES */
+
+nav {
+    width: 95%;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    background-color: #d9043d;
+    border: 2px solid #97bf04;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
